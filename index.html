@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Musake</title>
+    <!-- Menghubungkan dengan file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="login-card">
+            
+            <!-- Judul Halaman -->
+            <h2 class="title">Login Calon Siswa Musake</h2>
+
+            <!-- Form Login -->
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Masukkan username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Masukkan password" required>
+                </div>
+
+                <button type="submit" class="btn-submit">Login</button>
+            </form>
+
+            <!-- Pesan Error (Default tersembunyi) -->
+            <p id="errorMessage" class="message error">Username atau password salah</p>
+
+            <!-- Pesan Sukses (Default tersembunyi) -->
+            <div id="successMessage" class="message success">
+                <h3>Selamat Datang!</h3>
+                <p>Selamat, Anda diterima di TKJ Musake Tahun Ajaran 2026/2027</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Menghubungkan dengan file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
