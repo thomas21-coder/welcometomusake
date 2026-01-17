@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const users = [
         { username: "tkj", password: "musake" },
         { username: "siswa", password: "123" },
-        { username: "guru", password: "admin" }
+        { username: "guru", password: "admin" },
+        { username: "thomas", password: "210907"}
     ];
 
     // Mengambil elemen dari HTML
