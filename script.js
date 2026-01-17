@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { username: "tkj", password: "musake" },
         { username: "siswa", password: "123" },
         { username: "guru", password: "admin" },
-        { username: "thomas", password: "210907"}
+        { username: "thomas", password: "210907" },
     ];
 
     // Mengambil elemen dari HTML
