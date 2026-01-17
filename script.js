@@ -6,10 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Anda bisa menambahkan user baru di sini dengan mudah.
     // Format: { username: 'nama_user', password: 'kata_sandi' }
     const users = [
-        { username: "tkj", password: "musake" },
+        { username: "thomas", password: "210907" },
         { username: "siswa", password: "123" },
         { username: "guru", password: "admin" },
-        { username: "thomas", password: "210907" },
     ];
 
     // Mengambil elemen dari HTML
